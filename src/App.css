@@ -1,0 +1,189 @@
+.App {
+  text-align: center;
+}
+
+.about-background {
+  background: linear-gradient(to right, #ffbf00, #ff007f, #00bfff);
+  min-height: 100vh;
+  padding: 50px;
+}
+
+.about-container {
+  padding: 50px;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 10px;
+  margin-top: 50px;
+}
+
+.about-heading {
+  color: #f70a4d;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.about-subheading {
+  color: #8a5dec;
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.about-title {
+  color: #333333;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.about-description {
+  color: #555555;
+  font-size: 16px;
+}
+.registration-container {
+  background: linear-gradient(to right, #ff8a00, #e52e71, #00b5e2);
+  padding: 100px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  margin-top: 100px;
+}
+
+.registration-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.registration-container form {
+  margin-top: 20px;
+}
+
+.registration-container form label {
+  font-weight: bold;
+}
+
+.registration-container form .text-muted {
+  color: #fff;
+}
+
+.registration-container form button {
+  margin-top: 20px;
+}
+.login-container {
+  background: linear-gradient(to right, #00b5e2, #e52e71, #ff8a00);
+  padding: 120px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  margin-top: 80px;
+}
+
+.login-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-container form {
+  margin-top: 20px;
+}
+
+.login-container .btn-primary {
+  margin-top: 20px;
+}
+
+.login-container .alert {
+  margin-top: 20px;
+}
+.blog-container {
+  margin-top: 2rem;
+  background: linear-gradient(to right, #ff8a00, #e52e71, #892cdc);
+  padding: 2rem;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.blog-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.blog-card {
+  min-height: 300px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.blog-image {
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.blog-content {
+  margin-top: 1rem;
+}
+
+.blog-button {
+  margin-top: 1rem;
+}
+
+.blog-load-more {
+  margin-top: 2rem;
+  text-align: center;
+}
+.profile-container {
+  margin-top: 2rem;
+  background: linear-gradient(135deg, #ff7f50, #ffd700, #32cd32);
+  padding: 2rem;
+  border-radius: 0.5rem;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.profile-title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  border-bottom: 2px solid #fff;
+  padding-bottom: 1rem;
+}
+
+.profile-form {
+  margin-bottom: 1rem;
+}
+
+.profile-details {
+  margin-bottom: 1rem;
+}
+
+.profile-info {
+  font-size: 1.2rem;
+  border: 1px solid #fff;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.profile-edit-button {
+  margin-top: 1rem;
+}
+.home-page {
+  background: linear-gradient(45deg, #ff6b6b, #ffc107, #8bc34a, #00bcd4);
+
+  animation: gradientAnimation 15s ease infinite;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
